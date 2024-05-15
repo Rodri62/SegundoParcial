@@ -1,0 +1,13 @@
+CREATE TABLE estudiantes (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  Nombres VARCHAR(255),
+  Apellidos VARCHAR(255),
+  Seminarios VARCHAR(255),
+  Confirmado BOOLEAN,
+  Fecha_Inscripcion DATE
+);
+
+
+
+INSERT INTO estudiantes (Nombres, Apellidos, Seminarios, Confirmado, Fecha_Inscripcion)
+VALUES ('Rodrigo', 'Chuquichambi', 'Seguridad Informatica', TRUE, '2024-05-14');
